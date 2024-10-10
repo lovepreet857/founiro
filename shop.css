@@ -460,6 +460,26 @@ color: rgba(137, 137, 137, 1);
     padding-bottom: 20px;
     margin-top: 10px;
 }
+.Home_li{
+    display: grid;
+    row-gap: 46px;
+    list-style: none;
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+.Funiro_box1 p{
+    color: rgba(159, 159, 159, 1);
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
 .footer_box2 {
     display: flex;
     column-gap: 11px;
@@ -467,7 +487,7 @@ color: rgba(137, 137, 137, 1);
 }
 .place_enter {
     border: none;
-
+   border-bottom: 1px solid black;
 }
 .footer_end {
     border-top: 1px solid black;
